@@ -6,9 +6,14 @@ public class Especialista {
 	String nombre;
 	String phoneNumber;
 	String email;
+	
+	public Especialista() {
+		super();
+	}
+	
 	public Especialista(long l, String nombre, String phoneNumber, String email) {
 		
-		
+		super();
 	    this.id =l;
 	    this.nombre=nombre;
 	    this.phoneNumber=phoneNumber;
